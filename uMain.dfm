@@ -1,7 +1,7 @@
-object Form17: TForm17
+object frmMain: TfrmMain
   Left = 0
   Top = 0
-  Caption = 'Form17'
+  Caption = 'frmMain'
   ClientHeight = 202
   ClientWidth = 447
   Color = clBtnFace
@@ -13,4 +13,13 @@ object Form17: TForm17
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object btn_1: TButton
+    Left = 194
+    Top = 108
+    Width = 75
+    Height = 25
+    Caption = 'btn_1'
+    TabOrder = 0
+    OnClick = btn_1Click
+  end
 end
